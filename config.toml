@@ -22,7 +22,7 @@ title = "Veloist"
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
-  logo = "images/v-logo.png"
+  logo = "/images/v-logo.png"
 
 # Mission section
 [params.mission]
@@ -32,13 +32,13 @@ title = "Veloist"
     enable = true
 
     [[params.mission.images.list]]
-      img = "images/sm.jpg"
+      img = "/images/sm.jpg"
     [[params.mission.images.list]]
-      img = "images/vchest.jpg"
+      img = "/images/vchest.jpg"
     [[params.mission.images.list]]
-      img = "images/global.jpg"
+      img = "/images/global.jpg"
     [[params.mission.images.list]]
-      img = "images/hailey.jpg"
+      img = "/images/hailey.jpg"
 
   [[params.mission.item]]
     weight = 1
@@ -71,7 +71,7 @@ title = "Veloist"
   [[params.services.item]]
     icon = "icon-rocket"
     title = "Fast Turnaround"
-    description = "Order turnaround is an impressive 4 weeks with low minimum order quantities- down to 5 pieces for most items) and no minimum number for each size within an order."
+    description = "Order turnaround is an impressive 4 weeks with low minimum order quantities (down to 5 pieces for most items) and no minimum number for each size within an order."
 
   [[params.services.item]]
     icon = "icon-support"
@@ -85,24 +85,24 @@ title = "Veloist"
   [[params.work.item]]
     title = "Sleeve Detail"
     subtitle = "Team Kit"
-    img = "images/vsleeve.jpg"
+    img = "/images/vsleeve.jpg"
 
   [[params.work.item]]
     title = "BKVelo"
     subtitle = "Team Kit"
-    img = "images/J.jpg"
+    img = "/images/J.jpg"
 
 
     [[params.work.item]]
       title = "Zip Detail"
       subtitle = "Team Kit"
-      img = "images/zip.jpg"
+      img = "/images/zip.jpg"
 
 
   [[params.work.item]]
     title = "Global Payments"
     subtitle = "Team Kit"
-    img = "images/global2.jpg"
+    img = "/images/global2.jpg"
 
 
 # Team section
