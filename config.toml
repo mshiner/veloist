@@ -1,0 +1,174 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://www.veloist.cc/"
+languageCode = "en-GB"
+title = "Veloist"
+
+# Metadata
+[params]
+  author = "Martyn Shiner"
+  description = "Veloist - keeping you looking sharp on the road"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/bg.jpg"
+  title = "Veloist.cc"
+  description = "Keeping you looking sharp on the road"
+
+# Navigation section
+[params.nav]
+  mission = "About"
+  services = "Team Kit"
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  logo = "images/v-logo.png"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/sm.jpg"
+    [[params.mission.images.list]]
+      img = "images/vchest.jpg"
+    [[params.mission.images.list]]
+      img = "images/global.jpg"
+    [[params.mission.images.list]]
+      img = "images/hailey.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "team"
+    title = "Team Kit"
+    subtitle = "Veloist.cc can supply a full range of cycling kit."
+    description = "<p>If you are an established club or group, or have an upcoming one-off project you want help with, please do get in touch. The range of kit available is comprehensive and includes....</p><ul class='checked'><li>Short & long sleeved jerseys</li><li>Gilets & jackets</li><li>Bib shorts and 3/4 knickers</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "stock"
+    title = "Stock Items"
+    subtitle = "Veloist.cc is open for business!!!!"
+    description = "<p><a href='http://shop.veloist.cc/products' class='btn btn-primary btn-outline'>Visit Our Shop</a> <br> <br> All of our products are manufactured to our Tour Plus spec - for extra comfort there are over-locked seams and the jerseys are now made using an improved softer feel fabric. </p><ul class='checked'><li>Power gripper on sleeves</li><li>Full zip</li><li>Drop front collar</li><li>Three rear pockets</li></ul><p>Currently there are six designs in the range so go check them out! </p>"
+
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Team Kit"
+  description = "High performance custom kit made in Europe, guaranteeing the quality of the finished item and on-time, in full delivery"
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Design"
+    description = "I can use a design you have previously worked on, or start from scratch to produce a totally new concept."
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "Fast Turnaround"
+    description = "Order turnaround is an impressive 4 weeks with low minimum order quantities- down to 5 pieces for most items) and no minimum number for each size within an order."
+
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "Customer Support"
+    description = "To be perfectly honest it's just me, Martyn, plus a computer. So you get to talk to a human!"
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "Sleeve Detail"
+    subtitle = "Team Kit"
+    img = "images/vsleeve.jpg"
+
+  [[params.work.item]]
+    title = "BKVelo"
+    subtitle = "Team Kit"
+    img = "images/J.jpg"
+
+
+    [[params.work.item]]
+      title = "Zip Detail"
+      subtitle = "Team Kit"
+      img = "images/zip.jpg"
+
+
+  [[params.work.item]]
+    title = "Global Payments"
+    subtitle = "Team Kit"
+    img = "images/global2.jpg"
+
+
+# Team section
+[params.team]
+  enable = false
+  title = "Meet The Team"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.team.item]]
+    name = "Jean Doe"
+    position = "Chief legend"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person1.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    linkedin = "#"
+
+  [[params.team.item]]
+    name = "Alice Doe"
+    position = "Chief overlord"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person2.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+  [[params.team.item]]
+    name = "John Doe"
+    position = "Chief haranguer"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person3.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "Send an email, fill in the form or send some cake (we especially like carrot cake)... our postal address is Veloist.cc, Severn Delta Building, Showground Road, Bridgwater, Somerset TA6 6AJ"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2018 Veloist.cc. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> <br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+  # github = "#"
+  twitter = "https://twitter.com/veloist_cc"
+  facebook = "https://www.facebook.com/veloist.cc"
+  instagram = "https://instagram.com/veloistcc"
+  # strava = 'https://www.strava.com/clubs/veloist-cc'
