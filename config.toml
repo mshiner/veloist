@@ -1,6 +1,6 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://veloist.cc/"
+baseURL = "http://veloist.cc/"
 languageCode = "en-GB"
 title = "Veloist"
 
